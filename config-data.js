@@ -2,30 +2,30 @@ window.__CONFIG = {
   "business": {
     "name": "Hostel Casa de Montaña",
     "short_name": "hostel-casa-de-montana",
-    "tagline": "Hostel Casa de Montaña - Neuquén",
-    "description": "Hostel Casa de Montaña es tu refugio en Neuquén después de recorrer.",
+    "tagline": "Hostel Casa de Montaña - San Martín de los Andes",
+    "description": "Hostel Casa de Montaña es tu refugio en San Martín de los Andes después de recorrer.",
     "category": "Hospedaje",
     "followers": 0
   },
   "hero": {
     "video": "videos/city-video.mp4",
     "poster": "fotos/foto-01.webp",
-    "eyebrow": "Neuquén · Tte. Coronel Pérez 860",
+    "eyebrow": "San Martín de los Andes · Tte. Coronel Pérez 860",
     "title_line1": "Conocé",
-    "title_em": "hostel-casa-de-montana",
+    "title_em": "Hostel Casa de Montaña",
     "title_line2": "",
-    "subtitle": "Todo lo que buscás para viajar tranquilo por Neuquén."
+    "subtitle": "Todo lo que buscás para viajar tranquilo por San Martín de los Andes."
   },
   "location": {
     "address": "Tte. Coronel Pérez 860, Q8370 San Martín de los Andes, Neuquén",
-    "district": "Neuquén",
-    "city": "Neuquén",
-    "province": "",
+    "district": "Centro",
+    "city": "San Martín de los Andes",
+    "province": "Neuquén",
     "country": "Argentina",
     "destination_type": "mountain",
-    "map_query": "Tte. Coronel Pérez 860, Q8370 San Martín de los Andes, Neuquén, Neuquén",
-    "map_embed": "https://maps.google.com/maps?q=Tte.+Coronel+P%C3%A9rez+860%2C+Q8370+San+Mart%C3%ADn+de+los+Andes%2C+Neuqu%C3%A9n%2C+Neuqu%C3%A9n&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    "description": "Neuquén. El mejor lugar para quedarte en la zona.",
+    "map_query": "Tte. Coronel Pérez 860, Q8370 San Martín de los Andes, Neuquén",
+    "map_embed": "https://maps.google.com/maps?q=Tte.+Coronel+P%C3%A9rez+860%2C+Q8370+San+Mart%C3%ADn+de+los+Andes%2C+Neuqu%C3%A9n&t=&z=15&ie=UTF8&iwloc=&output=embed",
+    "description": "San Martín de los Andes. Todo cerca, desde acá.",
     "video": "videos/city-video.mp4"
   },
   "contact": {
@@ -34,7 +34,7 @@ window.__CONFIG = {
     "email": ""
   },
   "social": {
-    "instagram": "https://www.google.com/maps/place/Hostel+Casa+de+Monta%C3%B1a/@-40.1579961,-71.3544043,17z/data=!4m10!3m9!1s0x96110e7142d1c68d:0xa295615d5200ea9c!5m3!1s2026-10-26!4m1!1i2!8m2!3d-40.1579961!4d-71.3518294!16s%2Fg%2F11h3p7x3_0?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
+    "instagram": "https://www.instagram.com/hostelcasademontana/",
     "place_url": "https://www.google.com/maps/place/Hostel+Casa+de+Monta%C3%B1a/@-40.1579961,-71.3544043,17z/data=!4m10!3m9!1s0x96110e7142d1c68d:0xa295615d5200ea9c!5m3!1s2026-10-26!4m1!1i2!8m2!3d-40.1579961!4d-71.3518294!16s%2Fg%2F11h3p7x3_0?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D",
     "website": "",
     "facebook": "",
@@ -44,7 +44,7 @@ window.__CONFIG = {
     "eyebrow": "Todo sobre nosotros",
     "title": "Hostel Casa de Montaña, todo lo que necesitás saber.",
     "paragraphs": [
-      "Hostel Casa de Montaña te espera en Neuquén con habitaciones limpias, pileta, parrilla, cocina completa y WiFi gratis. Un lugar tranquilo para descansar y desde donde podés recorrer toda la zona."
+      "Hostel Casa de Montaña te espera en San Martín de los Andes, a media cuadra del centro, con habitaciones limpias, pileta, parrilla, cocina completa y WiFi gratis. Un lugar tranquilo para descansar y desde donde podés recorrer toda la zona."
     ],
     "photos": [
       {
@@ -84,28 +84,30 @@ window.__CONFIG = {
   ],
   "testimonials": [
     {
-      "author": "Camila D.",
+      "author": "Hebe Dato",
       "rating": 5,
-      "text": "Viajaba sola y me sentí súper segura. Conocí gente linda y disfruté cada momento."
+      "text": "El lugar es muy cómodo y limpio. Lo mejor es la ubicación y la atención de Sandra. Podés estacionar el auto cerca y pasear por San Martín caminando, todo queda cerquita. Muy recomendable."
     },
     {
-      "author": "Nicolás S.",
+      "author": "Nahuel Diaz",
       "rating": 5,
-      "text": "Perfecto para desconectar. Tranquilo, limpio y con espacios para compartir con otros viajeros."
+      "text": "Excelente lugar acorde al precio. La cocina y el comedor son cómodas y con todo lo necesario para cocinar. El baño limpio y las duchas excelentes. Vale la pena si no querés gastar tanto."
     },
     {
-      "author": "Diego F.",
+      "author": "Leo Cbx",
+      "rating": 5,
+      "text": "Muy buen hostel, precio inmejorable. Buena cocina y baños-duchas. La experiencia la mejora ampliamente Sandra, que está para lo que necesites siempre con buena energía. Lo recomiendo."
+    },
+    {
+      "author": "Juan Cruz C.",
       "rating": 4,
-      "text": "Muy buena relación calidad-precio y una atención personalizada que no encontrás en otros lados."
-    },
-    {
-      "author": "Joaquín H.",
-      "rating": 5,
-      "text": "Excelente lugar para descansar después de recorrer. Recomendadísimo, volvemos seguro."
+      "text": "Buen hostel para quedarse poco tiempo. La chica que atiende súper amable. La ducha está muy buena, la cocina muy bien equipada y está bien calefaccionado."
     }
   ],
   "testimonials_meta": {
-    "source": "demo"
+    "source": "google",
+    "rating": 3.9,
+    "count": 361
   },
   "gallery": {
     "images": [
@@ -200,23 +202,23 @@ window.__CONFIG = {
         "name": "Hostel Casa de Montaña",
         "short_name": "hostel-casa-de-montana",
         "tagline": "Hostel Casa de Montaña - Accommodation",
-        "description": "Hostel Casa de Montaña offers everything you need for your stay in Neuquén.",
+        "description": "Hostel Casa de Montaña offers everything you need for your stay in San Martín de los Andes.",
         "category": "Accommodation"
       },
       "hero": {
         "video": "videos/city-video.mp4",
         "poster": "fotos/foto-01.webp",
-        "eyebrow": "Neuquén · Tte. Coronel Pérez 860",
+        "eyebrow": "San Martín de los Andes · Tte. Coronel Pérez 860",
         "title_line1": "Welcome to",
-        "title_em": "hostel-casa-de-montana",
+        "title_em": "Hostel Casa de Montaña",
         "title_line2": "",
-        "subtitle": "A chill place to rest in Neuquén."
+        "subtitle": "A chill place to rest in San Martín de los Andes."
       },
       "about": {
         "eyebrow": "Meet the team",
         "title": "Everything about Hostel Casa de Montaña.",
         "paragraphs": [
-          "Hostel Casa de Montaña awaits you in Neuquén with clean rooms, pool, BBQ, full kitchen and free WiFi. A quiet place to rest and from where you can explore the whole area."
+          "Hostel Casa de Montaña awaits you in San Martín de los Andes, half a block from downtown, with clean rooms, pool, BBQ, full kitchen and free WiFi. A quiet place to rest and from where you can explore the whole area."
         ],
         "photos": [
           {
@@ -230,7 +232,7 @@ window.__CONFIG = {
         ]
       },
       "location": {
-        "description": "Neuquén. Walk everywhere from here."
+        "description": "San Martín de los Andes. Walk everywhere from here."
       },
       "gallery": {
         "images": [
@@ -293,24 +295,24 @@ window.__CONFIG = {
       },
       "faq": [
         {
-          "question": "Can I smoke?",
-          "answer": "In outdoor areas, yes. Not inside the building."
+          "question": "Can I pay by card?",
+          "answer": "Ask us, we have several options so you can pick what works best for you."
         },
         {
-          "question": "How far is the beach/downtown?",
-          "answer": "Just a few blocks, about a 5-minute walk."
+          "question": "Do you have WiFi?",
+          "answer": "Yes, free WiFi all over the property. Upload your photos with no problem."
         },
         {
-          "question": "Can I bring my pet?",
-          "answer": "Ask us, sometimes we can make it work. We don't say no right away."
+          "question": "Is the area safe?",
+          "answer": "Yes, it's a quiet neighbourhood. Travelers recommend it."
         },
         {
-          "question": "How do I book?",
-          "answer": "Send us a WhatsApp or email and we'll confirm right away. Easy as that."
+          "question": "Is there luggage storage?",
+          "answer": "Yes, you can leave your bags before check-in or after check-out."
         },
         {
-          "question": "What's the weather like? Should I pack warm clothes?",
-          "answer": "Nights in the mountains tend to be cool even in summer. Ask us and we'll tell you what to bring."
+          "question": "Can I go trekking nearby?",
+          "answer": "The area is known for its hills and trails. Message us and we'll recommend the best circuits."
         }
       ],
       "trust_bar": [
@@ -337,24 +339,24 @@ window.__CONFIG = {
       ],
       "testimonials": [
         {
-          "author": "James W.",
+          "author": "Hebe Dato",
           "rating": 5,
-          "text": "Traveling with friends and couldn't have picked a better place. Clean, comfy and welcoming."
+          "text": "The place is very comfortable and clean. The best thing is the location and Sandra's help. You can park nearby and walk around San Martín, everything is close. Highly recommended!"
         },
         {
-          "author": "David O.",
+          "author": "Nahuel Diaz",
           "rating": 5,
-          "text": "Excellent place to rest after a day out. Highly recommend, we'll be back for sure."
+          "text": "Excellent value for money. The kitchen and dining room are comfortable with everything you need to cook. Clean bathroom and great showers. Worth it if you don't want to spend too much."
         },
         {
-          "author": "Anna M.",
+          "author": "Leo Cbx",
           "rating": 5,
-          "text": "Beautiful place, close to everything. The hosts helped us with everything we needed."
+          "text": "Very good hostel, unbeatable price. Good kitchen and bathrooms/showers. Sandra makes the experience much better, always there when you need her with good energy. Recommended."
         },
         {
-          "author": "Peter D.",
-          "rating": 5,
-          "text": "Perfect spot to unwind. Quiet, clean, with lovely shared spaces to meet travelers."
+          "author": "Juan Cruz C.",
+          "rating": 4,
+          "text": "Great hostel for a short stay. The host is super friendly. Great shower, well-equipped kitchen and the place is nicely heated."
         }
       ],
       "footer": {
@@ -370,19 +372,33 @@ window.__CONFIG = {
       {
         "@type": "Hostel",
         "name": "Hostel Casa de Montaña",
-        "description": "Hostel Casa de Montaña: pileta, parrilla, WiFi y la mejor ubicación en Neuquén.",
-        "url": "",
+        "description": "Hostel Casa de Montaña: pileta, parrilla, WiFi y la mejor ubicación en San Martín de los Andes.",
+        "url": "https://hostel-casa-de-montana.vercel.app/",
         "telephone": "+5492972543677",
         "email": "",
-        "image": "",
+        "image": "https://hostel-casa-de-montana.vercel.app/og-image.jpg",
         "sameAs": [
+          "https://www.instagram.com/hostelcasademontana/",
           "https://www.google.com/maps/place/Hostel+Casa+de+Monta%C3%B1a/@-40.1579961,-71.3544043,17z/data=!4m10!3m9!1s0x96110e7142d1c68d:0xa295615d5200ea9c!5m3!1s2026-10-26!4m1!1i2!8m2!3d-40.1579961!4d-71.3518294!16s%2Fg%2F11h3p7x3_0?entry=ttu&g_ep=EgoyMDI2MTAxNC4wIKXMDSoASAFQAw%3D%3D"
         ],
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Tte. Coronel Pérez 860, Q8370 San Martín de los Andes, Neuquén",
-          "addressLocality": "Neuquén",
+          "streetAddress": "Tte. Coronel Pérez 860",
+          "addressLocality": "San Martín de los Andes",
+          "addressRegion": "Neuquén",
+          "postalCode": "Q8370",
           "addressCountry": "AR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": -40.1579961,
+          "longitude": -71.3518294
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": 3.9,
+          "reviewCount": 361,
+          "bestRating": 5
         },
         "amenityFeature": [
           {
