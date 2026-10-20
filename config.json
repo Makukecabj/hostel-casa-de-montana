@@ -3,7 +3,7 @@
     "name": "Hostel Casa de Montaña",
     "short_name": "hostel-casa-de-montana",
     "tagline": "Hostel Casa de Montaña - San Martín de los Andes",
-    "description": "Hostel Casa de Montaña es tu refugio en San Martín de los Andes después de recorrer.",
+    "description": "Hostel Casa de Montaña en San Martín de los Andes: habitaciones compartidas, cocina completa y WiFi gratis, a 50 metros de la plaza.",
     "category": "Hospedaje",
     "followers": 0
   },
@@ -25,7 +25,7 @@
     "destination_type": "mountain",
     "map_query": "Tte. Coronel Pérez 860, Q8370 San Martín de los Andes, Neuquén",
     "map_embed": "https://maps.google.com/maps?q=Tte.+Coronel+P%C3%A9rez+860%2C+Q8370+San+Mart%C3%ADn+de+los+Andes%2C+Neuqu%C3%A9n&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    "description": "San Martín de los Andes. Todo cerca, desde acá.",
+    "description": "A 50 metros de la plaza, en San Martín de los Andes. Todo cerca, desde acá.",
     "video": "videos/city-video.mp4"
   },
   "contact": {
@@ -44,7 +44,7 @@
     "eyebrow": "Todo sobre nosotros",
     "title": "Hostel Casa de Montaña, todo lo que necesitás saber.",
     "paragraphs": [
-      "Hostel Casa de Montaña te espera en San Martín de los Andes, a media cuadra del centro, con habitaciones limpias, pileta, parrilla, cocina completa y WiFi gratis. Un lugar tranquilo para descansar y desde donde podés recorrer toda la zona."
+      "Hostel Casa de Montaña te espera en San Martín de los Andes, a solo 50 metros de la plaza, con habitaciones compartidas limpias, cocina completa y WiFi gratis. Un lugar tranquilo para descansar y desde donde podés recorrer toda la zona."
     ],
     "photos": [
       {
@@ -66,7 +66,7 @@
     {
       "key": "bed",
       "title": "Todo para que descanses",
-      "description": "Camas buenas, ambiente tranquilo, a dormir tranquilo.",
+      "description": "Habitaciones compartidas, camas buenas y ambiente tranquilo para descansar.",
       "icon": "bed"
     },
     {
@@ -129,7 +129,7 @@
       },
       {
         "src": "fotos/foto-05.webp",
-        "alt": "Pileta y jardín"
+        "alt": "Jardín del hostel"
       },
       {
         "src": "fotos/foto-06.webp",
@@ -202,7 +202,7 @@
         "name": "Hostel Casa de Montaña",
         "short_name": "hostel-casa-de-montana",
         "tagline": "Hostel Casa de Montaña - Accommodation",
-        "description": "Hostel Casa de Montaña offers everything you need for your stay in San Martín de los Andes.",
+        "description": "Hostel Casa de Montaña in San Martín de los Andes: shared rooms, full kitchen and free WiFi, 50 meters from the main square.",
         "category": "Accommodation"
       },
       "hero": {
@@ -218,7 +218,7 @@
         "eyebrow": "Meet the team",
         "title": "Everything about Hostel Casa de Montaña.",
         "paragraphs": [
-          "Hostel Casa de Montaña awaits you in San Martín de los Andes, half a block from downtown, with clean rooms, pool, BBQ, full kitchen and free WiFi. A quiet place to rest and from where you can explore the whole area."
+          "Hostel Casa de Montaña awaits you in San Martín de los Andes, just 50 meters from the main square, with clean shared rooms, full kitchen and free WiFi. A quiet place to rest and from where you can explore the whole area."
         ],
         "photos": [
           {
@@ -232,7 +232,7 @@
         ]
       },
       "location": {
-        "description": "San Martín de los Andes. Walk everywhere from here."
+        "description": "50 meters from the square, in San Martín de los Andes. Walk everywhere from here."
       },
       "gallery": {
         "images": [
@@ -254,7 +254,7 @@
           },
           {
             "src": "fotos/foto-05.webp",
-            "alt": "Pool and garden"
+            "alt": "Hostel garden"
           },
           {
             "src": "fotos/foto-06.webp",
@@ -323,7 +323,7 @@
       "amenities": [
         {
           "title": "Comfortable rooms",
-          "description": "Everything you need to rest after a day of exploring.",
+          "description": "Shared rooms with comfortable beds, a quiet atmosphere to rest.",
           "icon": "bed"
         },
         {
@@ -372,7 +372,7 @@
       {
         "@type": "Hostel",
         "name": "Hostel Casa de Montaña",
-        "description": "Hostel Casa de Montaña: pileta, parrilla, WiFi y la mejor ubicación en San Martín de los Andes.",
+        "description": "Hostel Casa de Montaña: habitaciones compartidas, WiFi gratis y cocina completa a 50 metros de la plaza en San Martín de los Andes.",
         "url": "https://hostel-casa-de-montana.vercel.app/",
         "telephone": "+5492972543677",
         "email": "",
