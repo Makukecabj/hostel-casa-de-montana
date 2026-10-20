@@ -18,7 +18,7 @@ window.__CONFIG = {
   },
   "location": {
     "address": "Tte. Coronel Pérez 860, Q8370 San Martín de los Andes, Neuquén",
-    "district": "Centro",
+    "district": "San Martín de los Andes",
     "city": "San Martín de los Andes",
     "province": "Neuquén",
     "country": "Argentina",
