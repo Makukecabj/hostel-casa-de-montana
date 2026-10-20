@@ -379,6 +379,7 @@ header.scrolled .toggle-btn:hover {
 .btn-ghost {
   border: 1.5px solid rgba(240, 240, 240, 0.5);
   color: #F0F0F0;
+  background: transparent;
 }
 
 header.scrolled .btn-ghost {
@@ -1461,6 +1462,84 @@ footer {
 .testimonials-grid .reveal:nth-child(1) { transition-delay: 0ms; }
 .testimonials-grid .reveal:nth-child(2) { transition-delay: 100ms; }
 .testimonials-grid .reveal:nth-child(3) { transition-delay: 200ms; }
+
+/* ── Reservá (asistente de reservas) ── */
+.booking {
+  padding: 110px 0;
+  background: var(--section-alt-bg);
+}
+.booking .wrap {
+  max-width: 900px;
+}
+.booking-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr 0.8fr auto;
+  gap: 18px;
+  align-items: end;
+  background: var(--card-bg);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 34px;
+}
+.bk-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+.bk-field label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.bk-field input,
+.bk-field select {
+  font: inherit;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 13px 14px;
+  outline: none;
+  width: 100%;
+  transition: border-color 0.2s ease;
+}
+.bk-field input:focus,
+.bk-field select:focus {
+  border-color: var(--accent);
+}
+.booking-form .btn {
+  white-space: nowrap;
+}
+.bk-error {
+  color: var(--accent);
+  margin-top: 14px;
+  font-size: 0.95rem;
+  text-align: center;
+}
+.bk-note {
+  margin-top: 16px;
+  text-align: center;
+  color: var(--ink-soft);
+  font-size: 0.9rem;
+}
+@media (max-width: 860px) {
+  .booking-form {
+    grid-template-columns: 1fr 1fr;
+  }
+  .booking-form .btn {
+    grid-column: 1 / -1;
+  }
+}
+@media (max-width: 520px) {
+  .booking-form {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+}
 
 /* -- Cómo reservar (3 pasos) -- */
 .steps {
