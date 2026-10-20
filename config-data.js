@@ -3,7 +3,7 @@ window.__CONFIG = {
     "name": "Hostel Casa de Montaña",
     "short_name": "hostel-casa-de-montana",
     "tagline": "Hostel Casa de Montaña - San Martín de los Andes",
-    "description": "Hostel Casa de Montaña en San Martín de los Andes: habitaciones compartidas, cocina completa y WiFi gratis, a 50 metros de la plaza.",
+    "description": "Hostel Casa de Montaña en San Martín de los Andes: habitaciones privadas con baño privado y compartidas, cocina completa y WiFi gratis, a 50 metros de la plaza.",
     "category": "Hospedaje",
     "followers": 0
   },
@@ -44,7 +44,7 @@ window.__CONFIG = {
     "eyebrow": "Todo sobre nosotros",
     "title": "Hostel Casa de Montaña, todo lo que necesitás saber.",
     "paragraphs": [
-      "Hostel Casa de Montaña te espera en San Martín de los Andes, a solo 50 metros de la plaza, con habitaciones compartidas limpias, cocina completa y WiFi gratis. Un lugar tranquilo para descansar y desde donde podés recorrer toda la zona."
+      "Hostel Casa de Montaña te espera en San Martín de los Andes, a solo 50 metros de la plaza, con habitaciones privadas con baño privado y compartidas, cocina completa y WiFi gratis. Un lugar tranquilo para descansar y desde donde podés recorrer toda la zona."
     ],
     "photos": [
       {
@@ -66,7 +66,7 @@ window.__CONFIG = {
     {
       "key": "bed",
       "title": "Todo para que descanses",
-      "description": "Habitaciones compartidas, camas buenas y ambiente tranquilo para descansar.",
+      "description": "Habitaciones privadas con baño privado y compartidas, camas buenas y ambiente tranquilo para descansar.",
       "icon": "bed"
     },
     {
@@ -189,6 +189,10 @@ window.__CONFIG = {
     {
       "question": "¿Se puede hacer trekking cerca?",
       "answer": "La zona es conocida por sus cerros y senderos. Escribinos y te recomendamos los mejores circuitos."
+    },
+    {
+      "question": "¿Tienen habitaciones privadas?",
+      "answer": "Sí, tenemos habitaciones privadas con baño privado y también habitaciones compartidas."
     }
   ],
   "footer": {
@@ -202,7 +206,7 @@ window.__CONFIG = {
         "name": "Hostel Casa de Montaña",
         "short_name": "hostel-casa-de-montana",
         "tagline": "Hostel Casa de Montaña - Accommodation",
-        "description": "Hostel Casa de Montaña in San Martín de los Andes: shared rooms, full kitchen and free WiFi, 50 meters from the main square.",
+        "description": "Hostel Casa de Montaña in San Martín de los Andes: private rooms with a private bathroom and shared rooms, full kitchen and free WiFi, 50 meters from the main square.",
         "category": "Accommodation"
       },
       "hero": {
@@ -218,7 +222,7 @@ window.__CONFIG = {
         "eyebrow": "Meet the team",
         "title": "Everything about Hostel Casa de Montaña.",
         "paragraphs": [
-          "Hostel Casa de Montaña awaits you in San Martín de los Andes, just 50 meters from the main square, with clean shared rooms, full kitchen and free WiFi. A quiet place to rest and from where you can explore the whole area."
+          "Hostel Casa de Montaña awaits you in San Martín de los Andes, just 50 meters from the main square, with private rooms with a private bathroom and shared rooms, full kitchen and free WiFi. A quiet place to rest and from where you can explore the whole area."
         ],
         "photos": [
           {
@@ -313,6 +317,10 @@ window.__CONFIG = {
         {
           "question": "Can I go trekking nearby?",
           "answer": "The area is known for its hills and trails. Message us and we'll recommend the best circuits."
+        },
+        {
+          "question": "Do you have private rooms?",
+          "answer": "Yes, private rooms with a private bathroom, plus shared rooms."
         }
       ],
       "trust_bar": [
@@ -323,7 +331,7 @@ window.__CONFIG = {
       "amenities": [
         {
           "title": "Comfortable rooms",
-          "description": "Shared rooms with comfortable beds, a quiet atmosphere to rest.",
+          "description": "Private rooms with a private bathroom and shared rooms, comfortable beds and a quiet atmosphere to rest.",
           "icon": "bed"
         },
         {
@@ -372,7 +380,7 @@ window.__CONFIG = {
       {
         "@type": "Hostel",
         "name": "Hostel Casa de Montaña",
-        "description": "Hostel Casa de Montaña: habitaciones compartidas, WiFi gratis y cocina completa a 50 metros de la plaza en San Martín de los Andes.",
+        "description": "Hostel Casa de Montaña: habitaciones privadas con baño privado y compartidas, WiFi gratis y cocina completa a 50 metros de la plaza en San Martín de los Andes.",
         "url": "https://hostel-casa-de-montana.vercel.app/",
         "telephone": "+5492972543677",
         "email": "",
@@ -459,6 +467,14 @@ window.__CONFIG = {
             "acceptedAnswer": {
               "@type": "Answer",
               "text": "La zona es conocida por sus cerros y senderos. Escribinos y te recomendamos los mejores circuitos."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "¿Tienen habitaciones privadas?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Sí, tenemos habitaciones privadas con baño privado y también habitaciones compartidas."
             }
           }
         ]
