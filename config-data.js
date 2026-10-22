@@ -8,8 +8,7 @@ window.__CONFIG = {
     "followers": 0
   },
   "hero": {
-    "video": "videos/city-video.mp4",
-    "poster": "fotos/foto-01.webp",
+    "poster": "fotos/fotito1.jpeg",
     "eyebrow": "San Martín de los Andes · Tte. Coronel Pérez 860",
     "title_line1": "Conocé",
     "title_em": "Hostel Casa de Montaña",
@@ -25,8 +24,7 @@ window.__CONFIG = {
     "destination_type": "mountain",
     "map_query": "Tte. Coronel Pérez 860, Q8370 San Martín de los Andes, Neuquén",
     "map_embed": "https://maps.google.com/maps?q=Tte.+Coronel+P%C3%A9rez+860%2C+Q8370+San+Mart%C3%ADn+de+los+Andes%2C+Neuqu%C3%A9n&t=&z=15&ie=UTF8&iwloc=&output=embed",
-    "description": "A 50 metros de la plaza, en San Martín de los Andes. Todo cerca, desde acá.",
-    "video": "videos/city-video.mp4"
+    "description": "A 50 metros de la plaza, en San Martín de los Andes. Todo cerca, desde acá."
   },
   "contact": {
     "whatsapp": "https://wa.me/5492972543677",
@@ -48,11 +46,11 @@ window.__CONFIG = {
     ],
     "photos": [
       {
-        "src": "fotos/foto-02.webp",
+        "src": "fotos/foto-17.webp?v=2",
         "alt": "Interior del hostel"
       },
       {
-        "src": "fotos/foto-03.webp",
+        "src": "fotos/foto-21.webp",
         "alt": "Espacios comunes"
       }
     ]
@@ -112,52 +110,64 @@ window.__CONFIG = {
   "gallery": {
     "images": [
       {
-        "src": "fotos/foto-01.webp",
-        "alt": "Vista del alojamiento"
+        "src": "fotos/foto-13.webp",
+        "alt": "Habitación privada"
       },
       {
-        "src": "fotos/foto-02.webp",
-        "alt": "Interior del hostel"
-      },
-      {
-        "src": "fotos/foto-03.webp",
-        "alt": "Espacios comunes"
-      },
-      {
-        "src": "fotos/foto-04.webp",
+        "src": "fotos/foto-14.webp",
         "alt": "Zona de descanso"
       },
       {
-        "src": "fotos/foto-05.webp",
-        "alt": "Jardín del hostel"
+        "src": "fotos/foto-15.webp",
+        "alt": "Terraza del hostel"
       },
       {
-        "src": "fotos/foto-06.webp",
-        "alt": "Cocina del hostel"
+        "src": "fotos/foto-16.webp",
+        "alt": "Espacios comunes"
       },
       {
-        "src": "fotos/foto-07.webp",
-        "alt": "Habitaciones"
+        "src": "fotos/foto-17.webp?v=2",
+        "alt": "Vista panorámica"
       },
       {
-        "src": "fotos/foto-08.webp",
-        "alt": "Terraza"
+        "src": "fotos/foto-18.webp",
+        "alt": "Área social"
       },
       {
-        "src": "fotos/foto-09.webp",
-        "alt": "Entrada principal"
+        "src": "fotos/foto-19.webp",
+        "alt": "Habitación compartida"
       },
       {
-        "src": "fotos/foto-10.webp",
-        "alt": "Áreas verdes"
+        "src": "fotos/foto-20.webp",
+        "alt": "Jardín"
       },
       {
-        "src": "fotos/foto-11.webp",
+        "src": "fotos/foto-21.webp",
+        "alt": "Entrada"
+      },
+      {
+        "src": "fotos/foto-22.webp",
         "alt": "Comedor"
       },
       {
-        "src": "fotos/foto-12.webp",
-        "alt": "Living común"
+        "src": "fotos/foto-23.webp",
+        "alt": "Cocina equipada"
+      },
+      {
+        "src": "fotos/foto-24.webp",
+        "alt": "Exterior del hostel"
+      },
+      {
+        "src": "fotos/fotito2.jpeg",
+        "alt": ""
+      },
+      {
+        "src": "fotos/fotito3.jpeg",
+        "alt": ""
+      },
+      {
+        "src": "fotos/fotito4.jpeg",
+        "alt": ""
       }
     ],
     "videos": []
@@ -210,8 +220,7 @@ window.__CONFIG = {
         "category": "Accommodation"
       },
       "hero": {
-        "video": "videos/city-video.mp4",
-        "poster": "fotos/foto-01.webp",
+        "poster": "fotos/fotito1.jpeg",
         "eyebrow": "San Martín de los Andes · Tte. Coronel Pérez 860",
         "title_line1": "Welcome to",
         "title_em": "Hostel Casa de Montaña",
@@ -226,11 +235,11 @@ window.__CONFIG = {
         ],
         "photos": [
           {
-            "src": "fotos/foto-02.webp",
+            "src": "fotos/foto-17.webp?v=2",
             "alt": "Interior del hostel"
           },
           {
-            "src": "fotos/foto-03.webp",
+            "src": "fotos/foto-21.webp",
             "alt": "Espacios comunes"
           }
         ]
@@ -241,52 +250,64 @@ window.__CONFIG = {
       "gallery": {
         "images": [
           {
-            "src": "fotos/foto-01.webp",
-            "alt": "View of the property"
+            "src": "fotos/foto-13.webp",
+            "alt": "Private room"
           },
           {
-            "src": "fotos/foto-02.webp",
-            "alt": "Inside the hostel"
-          },
-          {
-            "src": "fotos/foto-03.webp",
-            "alt": "Common areas"
-          },
-          {
-            "src": "fotos/foto-04.webp",
+            "src": "fotos/foto-14.webp",
             "alt": "Relaxation area"
           },
           {
-            "src": "fotos/foto-05.webp",
-            "alt": "Hostel garden"
+            "src": "fotos/foto-15.webp",
+            "alt": "Hostel terrace"
           },
           {
-            "src": "fotos/foto-06.webp",
-            "alt": "Hostel kitchen"
+            "src": "fotos/foto-16.webp",
+            "alt": "Common areas"
           },
           {
-            "src": "fotos/foto-07.webp",
-            "alt": "Rooms"
+            "src": "fotos/foto-17.webp?v=2",
+            "alt": "Panoramic view"
           },
           {
-            "src": "fotos/foto-08.webp",
-            "alt": "Terrace"
+            "src": "fotos/foto-18.webp",
+            "alt": "Social area"
           },
           {
-            "src": "fotos/foto-09.webp",
-            "alt": "Main entrance"
+            "src": "fotos/foto-19.webp",
+            "alt": "Shared room"
           },
           {
-            "src": "fotos/foto-10.webp",
-            "alt": "Green areas"
+            "src": "fotos/foto-20.webp",
+            "alt": "Garden"
           },
           {
-            "src": "fotos/foto-11.webp",
-            "alt": "Dining room"
+            "src": "fotos/foto-21.webp",
+            "alt": "Entrance"
           },
           {
-            "src": "fotos/foto-12.webp",
-            "alt": "Common lounge"
+            "src": "fotos/foto-22.webp",
+            "alt": "Dining area"
+          },
+          {
+            "src": "fotos/foto-23.webp",
+            "alt": "Fully equipped kitchen"
+          },
+          {
+            "src": "fotos/foto-24.webp",
+            "alt": "Hostel exterior"
+          },
+          {
+            "src": "fotos/fotito2.jpeg",
+            "alt": ""
+          },
+          {
+            "src": "fotos/fotito3.jpeg",
+            "alt": ""
+          },
+          {
+            "src": "fotos/fotito4.jpeg",
+            "alt": ""
           }
         ]
       },

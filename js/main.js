@@ -165,6 +165,9 @@ const I18N = {
 };
 
 let currentLang = localStorage.getItem('lang') || 'es';
+// Capturamos el <title> estático del HTML (optimizado para SEO) antes de
+// que cualquier render lo sobrescriba.
+const seoTitleStatic = document.title;
 let currentTheme = localStorage.getItem('theme') || 'light';
 let savedConfig = null;
 let lbItems = [];
@@ -307,9 +310,17 @@ function render(c) {
     }
     waNameGlobal = b.short_name || b.name || '';
 
-    document.title = `${b.name || ''} | ${b.category || ''}`;
+    // En ES se mantiene el <title> estático optimizado para SEO
+    // ("Hostel Casa de Montaña | Hostel en San Martín de los Andes");
+    // en otros idiomas se genera desde el config.
+    if (currentLang !== 'es') {
+        document.title = `${b.name || ''} | ${b.category || ''}`;
+        setMeta('og:title', 'og-title', `${b.name || ''} | ${b.category || ''}`);
+    } else if (seoTitleStatic) {
+        document.title = seoTitleStatic;
+        setMeta('og:title', 'og-title', seoTitleStatic);
+    }
     setMeta('description', 'meta-description', b.description || '');
-    setMeta('og:title', 'og-title', `${b.name || ''} | ${b.category || ''}`);
     setMeta('og:description', 'og-description', b.description || '');
     const canonicalLink = document.querySelector('link[rel="canonical"]');
     if (canonicalLink && !canonicalLink.href) {
@@ -334,21 +345,22 @@ function render(c) {
     
     // Logo en nav (img)
     const navLogoImg = el('nav-logo').querySelector('img');
-    if (navLogoImg && c.logo) navLogoImg.src = c.logo;
-    else if (navLogoImg) navLogoImg.style.display = 'none';
+    if (navLogoImg && c.logo) {
+        navLogoImg.src = c.logo;
+        navLogoImg.style.display = '';
+    } else if (navLogoImg) {
+        navLogoImg.style.display = 'none';
+    }
     el('foot-logo').textContent = b.name || b.short_name || '';
     el('nav-cta').href = waLink;
     el('nav-cta').textContent = t('nav_cta');
-    el('hero-video-src').src = h.video || '';
-    el('hero-video').poster = h.poster || '';
+    // Hero: foto estática (antes video). Se mantiene el fallback de gradiente
+    // por si la imagen no carga.
+    const heroImage = el('hero-image');
     const heroSection = document.querySelector('.hero');
-    if (h.video) {
-        el('hero-video').load();
-        if (heroSection) heroSection.classList.remove('no-video');
-    } else {
-        el('hero-video').style.display = 'none';
-        if (heroSection) heroSection.classList.add('no-video');
-    }
+    if (heroImage && h.poster) heroImage.src = h.poster;
+    if (heroSection) heroSection.classList.remove('no-video');
+
     el('hero-eyebrow').textContent = h.eyebrow || '';
     // Hero title: use config title_line1/em/line2 if present, else "Welcome to [Name]"
     if (h.title_line1 || h.title_em || h.title_line2) {
@@ -414,7 +426,7 @@ function render(c) {
     let galleryHtml = '';
     lbItems = [];
     (g.images || []).forEach(img => {
-        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="${escapeHtml(img.alt || '')}" loading="lazy"><div class="gallery-overlay"><span>${escapeHtml(img.alt || '')}</span></div></div>`;
+        galleryHtml += `<div class="gallery-item reveal"><img src="${escapeHtml(img.src)}" alt="" loading="lazy"></div>`;
         lbItems.push({ type: 'image', src: img.src, alt: img.alt || '' });
     });
     // Videos removed from gallery - hero section uses the video background
